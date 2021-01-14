@@ -18,12 +18,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 
-# -----------------------Timeline-----------------------
-# 30/10 - 13:00 - 15:00 (2 hr) >> learning alphabeta cut 
-# 4/11 09:30 - 11:30 (2 hr) >> learning code 
-#      13:00 - 16:00 (3 hr) >> coding
-# [total] >> 7 hr
-
 driver = webdriver.Safari()
 driver.get('http://connect4.ist.tugraz.at:8080')
 
